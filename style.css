@@ -1,0 +1,44 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #6e5c62;
+    font-family: "Kanit", sans-serif;
+    color: white;
+}
+
+body .termo input{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Kanit", sans-serif;
+    margin-top: 20px;
+    background-color: #6e5c62;
+    border: 5px solid #4c4347;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    transition: .1s;
+
+}
+body .termo input:focus{
+    width: 55px;
+    height: 55px;
+    
+}
+
+@media screen and (max-width: 1020px) {
+    body .termo input{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+    body .termo input:focus{
+        width: 35px;
+        height: 35px;
+        
+    }
+}
